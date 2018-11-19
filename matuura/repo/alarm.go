@@ -1,8 +1,9 @@
 package repo
 
-import "../model"
+import "github.com/mtyr/Himo/matuura/model"
 
 var alarms []model.Alarm
+var seats []model.Seat
 
 func SetAlarm(alarm model.Alarm) {
 	alarms = append(alarms, alarm)
