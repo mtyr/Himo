@@ -9,5 +9,5 @@ type Alarm struct {
 }
 
 type Seat struct {
-	Seat []byte
+	Seet []byte
 }
