@@ -7,3 +7,7 @@ type Alarm struct {
 	Time           time.Time `json:"time"`
 	IsLongInterval bool      `json:"is_long_interval"`
 }
+
+type Seat struct {
+	Seat []byte
+}
