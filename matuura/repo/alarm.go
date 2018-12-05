@@ -2,9 +2,16 @@ package repo
 
 import "github.com/mtyr/Himo/matuura/model"
 
-var alarms []model.Alarm
+//var alarms []model.Alarm
 
+var alarms []string
+
+/*
 func SetAlarm(alarm model.Alarm) {
+	alarms = append(alarms, alarm)
+}*/
+
+func SetAlarm(alarm) {
 	alarms = append(alarms, alarm)
 }
 
